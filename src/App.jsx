@@ -197,9 +197,13 @@ const App = () => {
                 {item}
               </button>
             ))}
-            <button className="px-5 py-2 bg-slate-900 text-white rounded-full hover:bg-teal-700 transition-all duration-300 shadow-lg shadow-teal-900/10 text-xs tracking-wider uppercase">
-              Download CV
-            </button>
+            <a
+            href="/Stephanie_Bekhazi_CV.pdf"
+            download
+            className="px-5 py-2 bg-slate-900 text-white rounded-full hover:bg-teal-700 transition-all duration-300 shadow-lg shadow-teal-900/10 text-xs tracking-wider uppercase"
+            >
+            Download CV
+            </a>
           </div>
 
           {/* Mobile Toggle */}
@@ -260,10 +264,14 @@ const App = () => {
                 Connect with Stephanie
                 <ChevronRight size={18} className="group-hover:translate-x-1 transition-transform" />
               </button>
-              <button className="group px-8 py-4 bg-white border border-slate-200 text-slate-700 rounded-full font-medium hover:border-teal-200 hover:text-teal-700 hover:bg-teal-50 transition-all flex items-center justify-center gap-2">
-                <Download size={18} />
-                Download Resume
-              </button>
+              <a
+              href="/Stephanie_Bekhazi_CV.pdf"
+              download
+              className="group px-8 py-4 bg-white border border-slate-200 text-slate-700 rounded-full font-medium hover:border-teal-200 hover:text-teal-700 hover:bg-teal-50 transition-all flex items-center justify-center gap-2"
+              >
+              <Download size={18} />
+              Download Resume
+            </a>
             </div>
           </Reveal>
 
